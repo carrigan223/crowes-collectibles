@@ -113,6 +113,7 @@ a:hover {
     width: 30rem;
     background: grey;
     height: 100%;
+    
 }
 .sidebar.open {
     transform: translateX(0);
