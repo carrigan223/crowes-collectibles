@@ -9,6 +9,9 @@
         <div class="grid-container">
             <header class="header">
                 <div class="brand">
+                    <button onclick="openMenu()">
+                        &#9776;
+                    </button>
                     <a href="index.html">Crowes Colectibles</a>
                 </div>
                 <div class="header-links">
@@ -17,7 +20,16 @@
                 </div>
             </header>
             <aside class="sidebar">
-                Collectibles
+                <h3>Shopping Categories</h3>
+                <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+                <ul>
+                    <li>
+                        <a href="index.html">Football Cards</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Baseball Cards</a>
+                    </li>
+                </ul>
             </aside>
 
             <main class="main">
@@ -115,6 +127,13 @@
                 All rights reserved
             </footer>
         </div>
-    </body>
+        <script>
+            function openMenu() {
+              document.querySelector(".sidebar").classList.add("open");
+            }
+            function closeMenu() {
+              document.querySelector(".sidebar").classList.remove("open")
+            }
+          </script>    </body>
 
 </html>

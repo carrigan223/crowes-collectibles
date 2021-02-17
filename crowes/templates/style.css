@@ -111,7 +111,7 @@ a:hover {
     position: fixed;
     transform: translateX(-30rem);
     width: 30rem;
-    background: blue;
+    background: grey;
     height: 100%;
 }
 .sidebar.open {
