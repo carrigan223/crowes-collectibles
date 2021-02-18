@@ -9,6 +9,7 @@ const data = {
       brand: "Score",
       rating: 4.9,
       numReviews: 10,
+      description: "Chase Young rookie card",
     },
     {
       _id: "2",
@@ -19,6 +20,7 @@ const data = {
       brand: "Topps",
       rating: 4.1,
       numReviews: 7,
+      description: "Gleyber Torres Classic card",
     },
     {
       _id: "3",
@@ -29,6 +31,7 @@ const data = {
       brand: "Bowman",
       rating: 4.6,
       numReviews: 13,
+      description: "Jasson Dominguez rookie card",
     },
   ],
 };
